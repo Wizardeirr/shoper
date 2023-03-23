@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.volkankelleci.shoperapp.HomeFragment"
+        android:name="com.volkankelleci.shoperapp.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/historyFragment"
-        android:name="com.volkankelleci.shoperapp.HistoryFragment"
+        android:name="com.volkankelleci.shoperapp.history.HistoryFragment"
         android:label="fragment_history"
         tools:layout="@layout/fragment_history" >
         <action
@@ -25,7 +25,7 @@
     </fragment>
     <fragment
         android:id="@+id/historyShopFragment"
-        android:name="com.volkankelleci.shoperapp.HistoryShopFragment"
+        android:name="com.volkankelleci.shoperapp.historyshop.HistoryShopFragment"
         android:label="fragment_history_shop"
         tools:layout="@layout/fragment_history_shop" />
 </navigation>

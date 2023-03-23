@@ -1,10 +1,10 @@
-package com.volkankelleci.shoperapp
+package com.volkankelleci.shoperapp.home
 
 import android.os.Bundle
 import android.view.*
-import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.volkankelleci.shoperapp.databinding.FragmentHomeBinding
+import com.volkankelleci.shoperapp.util.BaseVBFragment
 
 
 class HomeFragment : BaseVBFragment<FragmentHomeBinding>() {

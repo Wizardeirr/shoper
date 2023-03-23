@@ -1,4 +1,4 @@
-package com.volkankelleci.shoperapp
+package com.volkankelleci.shoperapp.util
 
 import android.os.Bundle
 import android.view.LayoutInflater
