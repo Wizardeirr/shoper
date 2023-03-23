@@ -26,6 +26,7 @@ class HomeFragment : BaseVBFragment<FragmentHomeBinding>() {
             val action=HomeFragmentDirections.actionHomeFragmentToHistoryFragment()
             findNavController().navigate(action)
         }
+
     }
 
     override fun getViewBinding(): FragmentHomeBinding {
